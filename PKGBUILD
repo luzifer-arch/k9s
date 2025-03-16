@@ -3,7 +3,7 @@
 # Contributor: Morten Linderud <foxboron@archlinux.org>
 
 pkgname=k9s
-pkgver=0.40.9
+pkgver=0.40.10
 pkgrel=1
 pkgdesc='TUI for managing Kubernetes clusters and pods'
 arch=(x86_64)
@@ -12,7 +12,7 @@ license=(APACHE)
 makedepends=(git go)
 options=('!lto')
 source=("git+$url#tag=v${pkgver}")
-sha256sums=('ee72dc11580a87695620993d3325c364bbbc7fef593ca915207da2ee11f944da')
+sha256sums=('14871ded00870e02c46dbfa4118b03ff846fde737e5007647ab68e01df0a8263')
 options=('!lto')
 
 pkgver() {
